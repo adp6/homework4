@@ -8,6 +8,7 @@ header {
     background-color: black;
 }
 .middle {
+    text-align: center;
     margin: 0 auto;
     width: 50%;
 }
@@ -79,9 +80,9 @@ ul {
     padding: 200px;
 }
 p {
-    width: 65%;
-    text-align: center;
-    margin: 0 100px;
+    width: 500px;
+    display: inline-block;
+    text-align: left;
     font-size: 16px;
     font-weight: 600;
 }
@@ -117,8 +118,6 @@ h4 {
 }
 .bottom-img,
 .bottom-img1 {
-    text-align: center;
-    margin-left:100px ;
     display: inline-block;
     background-image: url(../img/letter.png);
     position: relative;
@@ -128,7 +127,7 @@ h4 {
     margin-left: 20px;
 }
 .bottom-img {
-    margin-left: 100px;
+    margin-left: -50px;
 }
 .bottom-img1 {
     background-image: url(../img/connect.png);
@@ -158,12 +157,10 @@ h4 {
 .anime_list {
     display: inline-block;
     margin-left: -60px;
+    text-align: center;
 }
 .anime_ul {
     width: 100%;
-}
-.anime_list:first-child {
-    margin-left: 230px;
 }
 a {
     text-decoration: none;
