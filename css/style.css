@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+header {
+    padding: 20px 0;
+    background-color: black;
+}
+.middle {
+    margin: 0 auto;
+    width: 50%;
+}
+h1 {
+    font-size: 96px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+.logo {
+    display: inline-block;
+    width: 400px;
+    padding: 0;
+}
+.circuit {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 900;
+}
+.circuit::after {
+    content: ".";
+    color: yellow;
+}
+.dot::after {
+    content: ".";
+    color: white;
+}
+.dotyellow::after {
+    content: ".";
+    color: yellow;
+}
+ul li{
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 30px;
+    font-weight: 600;
+    margin: 0;
+    vertical-align: middle;
+}
+ul {
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+.white {
+    color: white;
+}
+.list {
+    display: inline-block;
+}
+.yellow {
+    background-color: rgba(250, 232, 0, 1);
+}
+.padding {
+    padding: 200px;
+}
+p {
+    width: 65%;
+    text-align: center;
+    margin: 0 100px;
+    font-size: 16px;
+    font-weight: 600;
+}
+h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+.about_me {
+    text-align: left;
+    display: inline-block;
+    width: 552px;
+    margin: 0 20%;
+}
+.anime {
+    background-image: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+    height: 384px;
+    width: 352px;
+    position: relative;
+    display: inline-block;
+}
+.container-left{
+    width: 80%;
+    margin: 0 auto;
+}
+h4 {
+    color: rgba(248, 200, 34, 1);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+}
+.bottom-img,
+.bottom-img1 {
+    text-align: center;
+    margin-left:100px ;
+    display: inline-block;
+    background-image: url(../img/letter.png);
+    position: relative;
+    height: 500px;
+    width: 328px;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+.bottom-img {
+    margin-left: 100px;
+}
+.bottom-img1 {
+    background-image: url(../img/connect.png);
+}
+.text {
+    bottom: 20%;
+    position: absolute;
+    left: 22%;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+.icon {
+    position: absolute;
+    width: 32px;
+    height: 31px;
+    left: 40%;
+}
+.project {
+    width: 100px;
+    left: 25%;
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+}
+.anime_list {
+    display: inline-block;
+    margin-left: -60px;
+}
+.anime_ul {
+    width: 100%;
+}
+.anime_list:first-child {
+    margin-left: 230px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.footer_li {
+    display: inline-block;
+}
+.black {
+    color: black;
+}
+.last_text {
+    font-size: 14px;
+}
+.red {
+    color: rgba(252, 72, 80, 1);
+}
+footer {
+    margin-top: 60px;
+}
