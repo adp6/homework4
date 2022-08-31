@@ -101,10 +101,19 @@ h3 {
 .anime {
     background-image: url(../img/Rectangle.png);
     background-repeat: no-repeat;
+    margin: 0 2%;
+    background-size: 352px cover;
     height: 384px;
-    width: 352px;
+    width: 272px;
     position: relative;
     display: inline-block;
+    padding: 0;
+}
+.anime:first-child {
+    margin-left:0;
+}
+.anime:last-child {
+    margin-right:0;
 }
 .container-left{
     width: 80%;
@@ -156,10 +165,11 @@ h4 {
 }
 .anime_list {
     display: inline-block;
-    margin-left: -60px;
-    text-align: center;
 }
 .anime_ul {
+    
+    padding: 0;
+    margin: 0;
     width: 100%;
 }
 a {
